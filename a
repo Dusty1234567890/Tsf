@@ -1,0 +1,268 @@
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+
+local PhantomForcesWindow = Library:NewWindow("GASTER HUB")
+
+local KillingCheats = PhantomForcesWindow:NewSection("BobFarm")
+
+KillingCheats:CreateToggle("BobFarm 1", function(value)
+if value then
+getgenv().kid = true
+if getgenv().kid == true then
+for count = 1, math.huge do
+if getgenv().kid == false then
+break
+end
+firetouchinterest(game.Players.LocalPlayer.Character:WaitForChild("Head"), workspace.Lobby.Teleport1, 0)
+wait(0.7)
+game:GetService('VirtualInputManager'):SendKeyEvent(true,'E',false,x)
+wait(1)
+local A = game.Players.LocalPlayer
+local B = A.Character:FindFirstChild("Humanoid")
+B.Health = 0
+wait(5)
+    end
+end
+else
+getgenv().kid = false
+if getgenv().kid == true then
+for count = 1, math.huge do
+if getgenv().kid == false then
+break
+end
+firetouchinterest(game.Players.LocalPlayer.Character:WaitForChild("Head"), workspace.Lobby.Teleport1, 0)
+wait(0.7)
+game:GetService('VirtualInputManager'):SendKeyEvent(true,'E',false,x)
+wait(1)
+local A = game.Players.LocalPlayer
+local B = A.Character:FindFirstChild("Humanoid")
+B.Health = 0
+wait(5)
+    end
+end
+end
+end)
+
+KillingCheats:CreateToggle("BobFarm 2", function(value)
+if value then
+getgenv().test = true
+if getgenv().test == true then
+for count = 1, math.huge do
+ 
+ if getgenv().test == false then
+ break
+ end
+    -- Get the local player
+    local player = game.Players.LocalPlayer
+
+    -- Get the humanoid of the player's character
+    local humanoid = player.Character.Humanoid
+
+    -- Define the desired CFrame position
+    local desiredPosition = CFrame.new(-810.162292, 329.90097, 3.98657513)
+
+    -- Move the humanoid to the desired position
+    humanoid:MoveTo(desiredPosition.Position)
+    wait(1.5)
+    game:GetService('VirtualInputManager'):SendKeyEvent(true,'E',false,x)
+    wait(0.4)
+    local A = game.Players.LocalPlayer
+    local B = A.Character:FindFirstChild("Humanoid")
+
+   B.Health = 0
+
+    -- Wait for a certain amount of time before executing the script again
+    wait(5)
+end   end
+else
+getgenv().test = false
+if getgenv().test == true then
+for count = 1, math.huge do
+ 
+ if getgenv().test == false then
+ break
+ end
+    -- Get the local player
+    local player = game.Players.LocalPlayer
+
+    -- Get the humanoid of the player's character
+    local humanoid = player.Character.Humanoid
+
+    -- Define the desired CFrame position
+    local desiredPosition = CFrame.new(-810.162292, 329.90097, 3.98657513)
+
+    -- Move the humanoid to the desired position
+    humanoid:MoveTo(desiredPosition.Position)
+    wait(1.5)
+    game:GetService('VirtualInputManager'):SendKeyEvent(true,'E',false,x)
+    wait(0.4)
+    local A = game.Players.LocalPlayer
+    local B = A.Character:FindFirstChild("Humanoid")
+
+   B.Health = 0
+
+    -- Wait for a certain amount of time before executing the script again
+    wait(5)
+end   end
+end
+end)
+
+local KillingCheats = PhantomForcesWindow:NewSection("BobFarm《use safespot》")
+
+KillingCheats:CreateToggle("BobFarm 3《kickable》", function(value)
+if value then
+getgenv().car = true
+while wait(5.5) do
+if getgenv().car == true then
+game:GetService("ReplicatedStorage").Duplicate:FireServer()
+end
+end
+else
+getgenv().car = false
+while wait(6) do
+if getgenv().car == true then
+game:GetService("ReplicatedStorage").Duplicate:FireServer()
+end
+end
+end
+end)
+
+KillingCheats:CreateToggle("BobFarm 4", function(value)
+if value then
+getgenv().dude = true
+while getgenv().dude do
+if getgenv().dude == true then
+game:GetService('VirtualInputManager'):SendKeyEvent(true,'E',false,x)
+wait(15)
+end
+end
+else
+getgenv().dude = false
+while getgenv().dude do
+if getgenv().dude == true then
+game:GetService('VirtualInputManager'):SendKeyEvent(true,'E',false,x)
+wait(15)
+end
+end
+end
+end)
+
+local KillingCheats = PhantomForcesWindow:NewSection("Brick farm")
+
+KillingCheats:CreateToggle("Brick Farm", function(value)
+if value then
+getgenv().bozo = true
+if getgenv().bozo == true then
+for count = 1, math.huge do
+if getgenv().bozo == false then
+break
+end
+game:GetService("ReplicatedStorage").lbrick:FireServer() game.Players.LocalPlayer.PlayerGui.BRICKCOUNT.ImageLabel.TextLabel.Text = game.Players.LocalPlayer.PlayerGui.BRICKCOUNT.ImageLabel.TextLabel.Text + 1; wait(Random.new():NextNumber(1.5,1.75)) game:GetService("ReplicatedStorage").lbrick:FireServer() game.Players.LocalPlayer.PlayerGui.BRICKCOUNT.ImageLabel.TextLabel.Text = game.Players.LocalPlayer.PlayerGui.BRICKCOUNT.ImageLabel.TextLabel.Text + 1; wait(Random.new():NextNumber(1.5,1.75)) game:GetService("ReplicatedStorage").lbrick:FireServer() game.Players.LocalPlayer.PlayerGui.BRICKCOUNT.ImageLabel.TextLabel.Text = game.Players.LocalPlayer.PlayerGui.BRICKCOUNT.ImageLabel.TextLabel.Text + 1; wait(Random.new():NextNumber(1.5,1.75)) game:GetService("ReplicatedStorage").lbrick:FireServer() game.Players.LocalPlayer.PlayerGui.BRICKCOUNT.ImageLabel.TextLabel.Text = game.Players.LocalPlayer.PlayerGui.BRICKCOUNT.ImageLabel.TextLabel.Text + 1; wait(Random.new():NextNumber(1.5,1.75)) game:GetService('VirtualInputManager'):SendKeyEvent(true,'E',false,x) wait(Random.new():NextNumber(1.5,1.75)) end end
+else
+getgenv().bozo = false
+if getgenv().bozo == true then
+for count = 1, math.huge do
+if getgenv().bozo == false then
+break
+end
+game:GetService("ReplicatedStorage").lbrick:FireServer() game.Players.LocalPlayer.PlayerGui.BRICKCOUNT.ImageLabel.TextLabel.Text = game.Players.LocalPlayer.PlayerGui.BRICKCOUNT.ImageLabel.TextLabel.Text + 1; wait(Random.new():NextNumber(1.5,1.75)) game:GetService("ReplicatedStorage").lbrick:FireServer() game.Players.LocalPlayer.PlayerGui.BRICKCOUNT.ImageLabel.TextLabel.Text = game.Players.LocalPlayer.PlayerGui.BRICKCOUNT.ImageLabel.TextLabel.Text + 1; wait(Random.new():NextNumber(1.5,1.75)) game:GetService("ReplicatedStorage").lbrick:FireServer() game.Players.LocalPlayer.PlayerGui.BRICKCOUNT.ImageLabel.TextLabel.Text = game.Players.LocalPlayer.PlayerGui.BRICKCOUNT.ImageLabel.TextLabel.Text + 1; wait(Random.new():NextNumber(1.5,1.75)) game:GetService("ReplicatedStorage").lbrick:FireServer() game.Players.LocalPlayer.PlayerGui.BRICKCOUNT.ImageLabel.TextLabel.Text = game.Players.LocalPlayer.PlayerGui.BRICKCOUNT.ImageLabel.TextLabel.Text + 1; wait(Random.new():NextNumber(1.5,1.75)) game:GetService('VirtualInputManager'):SendKeyEvent(true,'E',false,x) wait(Random.new():NextNumber(1.5,1.75)) end end
+end
+end)
+
+local KillingCheats = PhantomForcesWindow:NewSection("Anti Afk")
+
+KillingCheats:CreateButton("Anti afk", function()
+local Players = game:GetService("Players")
+local player = Players.LocalPlayer
+local playerGui = player:WaitForChild("PlayerGui")
+
+local screenGui = Instance.new("ScreenGui")
+screenGui.IgnoreGuiInset = true
+screenGui.Parent = playerGui
+
+local frame = Instance.new("Frame")
+frame.Size = UDim2.new(0.5, 0, 0.5, 0)
+frame.Position = UDim2.new(0.25, 0, 0.25, 0)
+frame.BackgroundColor3 = Color3.fromRGB(0, 20, 40)
+frame.Active = true -- Enable interaction
+frame.Draggable = true -- Allow dragging
+frame.Parent = screenGui
+
+local textLabel = Instance.new("TextLabel")
+textLabel.Size = UDim2.new(1, 0, 0.9, 0) -- Adjusted height to make space for the counter
+textLabel.Position = UDim2.new(0, 0, 0.1, 0) -- Adjusted position to make space for the counter
+textLabel.BackgroundTransparency = 1
+textLabel.Font = Enum.Font.GothamMedium
+textLabel.TextColor3 = Color3.new(0.8, 0.8, 0.8)
+textLabel.Text = "Dark, darker yet darker"
+textLabel.TextSize = 28
+textLabel.Parent = frame
+
+local counterLabel = Instance.new("TextLabel") -- Create the counter label
+counterLabel.Size = UDim2.new(1, 0, 0.1, 0) -- Set the size to 10% of the frame's height
+counterLabel.Position = UDim2.new(0, 0, 0.9, 0) -- Position it at the bottom of the frame
+counterLabel.BackgroundTransparency = 1
+counterLabel.Font = Enum.Font.GothamMedium
+counterLabel.TextColor3 = Color3.new(0.8, 0.8, 0.8)
+counterLabel.TextSize = 20
+counterLabel.Text = "Time: 3610 seconds" -- Set the initial counter value
+counterLabel.Parent = frame
+
+local counter = 3610 -- Initial counter value in seconds
+
+local function updateCounter()
+    while counter > 0 do
+        counter = counter - 1
+        counterLabel.Text = "Time: " .. counter .. " seconds"
+        wait(1) -- Wait for 1 second before updating the counter again
+    end
+end
+
+-- Start the counter update loop
+spawn(updateCounter)
+
+local bb = game:GetService('VirtualUser')
+game:GetService('Players').LocalPlayer.Idled:Connect(function()
+    bb:CaptureController()
+    bb:ClickButton2(Vector2.new())
+end)
+end)
+
+local KillingCheats = PhantomForcesWindow:NewSection("Credits")
+
+KillingCheats:CreateButton("in youtube", function()
+print("THEDARKNESSKEEPSGROWING")
+end)
+
+KillingCheats:CreateButton("THEDARKNESSKEEPSGROWING", function()
+print("SUB TO ME")
+end)
+
+KillingCheats:CreateButton("CLICK TO COPY MY DISCORD LINK", function()
+setclipboard("https://discord.com/invite/teJueE2gJ3")
+end)
+
+KillingCheats:CreateButton("Click to copy my yt link", function()
+setclipboard("https://www.youtube.com/@THEDARKNESSKEEPSGROWING")
+end)
+
+local KillingCheats = PhantomForcesWindow:NewSection("Safe spot")
+
+KillingCheats:CreateButton("safe spot", function()
+local platform = Instance.new("Part")
+platform.Size = Vector3.new(100, 1, 100) -- Adjust the size as needed
+platform.Position = Vector3.new(-24058.8594, 306.104187, -844.946045)
+platform.CFrame = CFrame.new(platform.Position) -- Set the rotation to 0
+
+-- Customize the appearance of the platform if desired
+platform.BrickColor = BrickColor.new("Bright blue")
+platform.Material = Enum.Material.Plastic
+
+platform.Parent = workspace
+
+local weld = Instance.new("WeldConstraint")
+weld.Parent = platform
+weld.Part0 = platform
+weld.Part1 = workspace.Terrain -- Weld the platform to the terrain to make it stable
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-24036.2266, 316.696503, -855.74939, -0.432100594, 0.195096105, -0.880469501, -3.06623953e-08, 0.976319253, 0.216334686, 0.901825428, 0.0934783742, -0.421868116)
+end)
