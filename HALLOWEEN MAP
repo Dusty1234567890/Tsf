@@ -1,0 +1,409 @@
+for _, number1 in pairs(game.workspace.Arena['default island'].chains:GetChildren()) do
+    number1.Material = 'Neon'
+    number1.Color = Color3.fromRGB(255, 85, 0)
+  end
+for _, number2 in pairs(game.workspace.Arena.Chainwork:GetChildren()) do
+    number2.Material = 'Neon'
+    number2.Color = Color3.fromRGB(255, 85, 0)
+  end
+--
+local a = game.workspace:WaitForChild('Arena'):WaitForChild('main island'):WaitForChild('Grass')
+if a then
+  a.Color = Color3.fromRGB(180, 133, 65)
+end
+--
+for _, number3 in pairs(game.workspace.Arena:WaitForChild('main island'):GetChildren()) do
+  if number3.Name == 'Hair/Grass/spikes' then
+    number3.Color = Color3.fromRGB(180, 133, 65)
+  end
+end
+--
+local b = game.workspace.Arena:WaitForChild('island2'):WaitForChild('Grass')
+if b then
+  b.Color = Color3.fromRGB(180, 133, 65)
+end
+--
+local c = game.workspace.Arena:WaitForChild('island3'):WaitForChild('Grass')
+if c then
+  c.Color = Color3.fromRGB(180, 133, 65)
+end
+--
+local d = game.workspace.Arena:WaitForChild('island1'):WaitForChild('Grass')
+if d then
+  d.Color = Color3.fromRGB(180, 133, 65)
+end
+--
+local e1 = game.workspace.Arena:WaitForChild('island4'):WaitForChild('Grass')
+if e1 then
+  e1.Color = Color3.fromRGB(180, 133, 65)
+end
+--
+local u = game.workspace.Arena.island5
+for _, tw in pairs(u:GetDescendants()) do
+  if tw.Name == 'Union' then
+    tw.Color = Color3.fromRGB(180, 133, 65)
+  end
+end
+--
+for _, can1 in pairs(game.workspace.Arena.CannonIsland['Cannon Island']:GetDescendants()) do
+  if can1.Name:find('Meshes/island') then
+    can1.Color = Color3.fromRGB(180, 133, 65)
+  end
+end
+-- leaves
+workspace.Arena.island2['Sakura Tree'].Leaves:Destroy()
+workspace.Arena.island2['Sakura Tree'].FallingLeaves:Destroy()
+--
+workspace.Arena.island1['Sakura Tree'].Leaves:Destroy()
+workspace.Arena.island1['Sakura Tree'].FallingLeaves:Destroy()
+--
+workspace.Arena.island4['Sakura Tree'].Leaves:Destroy()
+workspace.Arena.island4['Sakura Tree'].FallingLeaves:Destroy()
+--
+for _, moai2 in pairs(workspace.Arena.island4['Big Tree']:GetChildren()) do
+  if moai2.Name == 'MeshPart' then
+    moai2:Destroy()
+  end
+end
+--
+for _, tree10 in pairs(workspace.Arena.island5.Tree:GetDescendants()) do
+  if tree10.Name == 'Leaf' then
+    tree10.Color = Color3.fromRGB(180, 133, 65)
+  end
+end
+--
+for _, bush2 in pairs(workspace.Arena.island5.Bush:GetDescendants()) do
+  if bush2.Name == 'Part' then
+    bush2.Color = Color3.fromRGB(180, 133, 65)
+  end
+end
+--
+for _, bush3 in pairs(workspace.Arena.island5:GetDescendants()) do
+  if bush3.Name == 'Bush' and bush3:FindFirstChild('Weld') then
+    bush3.Color = Color3.fromRGB(180, 133, 65)
+  end
+end
+--
+for _, tree11 in pairs(workspace.Arena.island5:GetDescendants()) do
+  if tree11.Name == 'MeshPart' and tree11.MeshId == 'rbxassetid://6025191626' then
+    tree11.Color = Color3.fromRGB(180, 133, 65)
+  end
+end
+--
+for _, tree13 in pairs(workspace.Arena.island5:GetDescendants()) do
+  if tree13.Name == 'Tree6' then
+    tree13.Color = Color3.fromRGB(180, 133, 65)
+  end
+end
+-- 
+for _, tree14 in pairs(workspace.Arena.island5:GetDescendants()) do
+  if tree14.Name == 'Leaves2' then
+    tree14.Color = Color3.fromRGB(180, 133, 65)
+  end
+end
+--
+for _, tree15 in pairs(workspace.Arena.island5:GetDescendants()) do
+  if tree15.Name == 'Leaves1' then
+    tree15.Color = Color3.fromRGB(180, 133, 65)
+  end
+end
+--
+for _, tree16 in pairs(workspace.Arena.island5:GetDescendants()) do
+  if tree16.Name == 'leaves' then
+    tree16.Color = Color3.fromRGB(180, 133, 65)
+  end
+end
+--
+local eye1 = Instance.new('Part', game.Workspace)
+
+eye1.Name = [[eye1]]
+eye1.Anchored = true
+eye1.BackSurface = Enum.SurfaceType.SmoothNoOutlines
+eye1.BottomSurface = Enum.SurfaceType.Smooth
+eye1.BrickColor = BrickColor.new('Really red')
+eye1.CFrame = CFrame.new(236, -8, -30, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+eye1.CanCollide = false
+eye1.Color = Color3.new(1, 0, 0)
+eye1.FrontSurface = Enum.SurfaceType.SmoothNoOutlines
+eye1.LeftSurface = Enum.SurfaceType.SmoothNoOutlines
+eye1.Material = Enum.Material.Neon
+eye1.RightSurface = Enum.SurfaceType.SmoothNoOutlines
+eye1.Size = Vector3.new(1, 1, 1)
+eye1.TopSurface = Enum.SurfaceType.Smooth
+eye1.Shape = Enum.PartType.Ball
+--
+local eye2 = Instance.new('Part', game.Workspace)
+
+eye2.Name = [[eye2]]
+eye2.Anchored = true
+eye2.BackSurface = Enum.SurfaceType.SmoothNoOutlines
+eye2.BottomSurface = Enum.SurfaceType.Smooth
+eye2.BrickColor = BrickColor.new('Really red')
+eye2.CFrame = CFrame.new(240, -8, -27.5, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+eye2.CanCollide = false
+eye2.Color = Color3.new(1, 0, 0)
+eye2.FrontSurface = Enum.SurfaceType.SmoothNoOutlines
+eye2.LeftSurface = Enum.SurfaceType.SmoothNoOutlines
+eye2.Material = Enum.Material.Neon
+eye2.RightSurface = Enum.SurfaceType.SmoothNoOutlines
+eye2.Size = Vector3.new(1, 1, 1)
+eye2.TopSurface = Enum.SurfaceType.Smooth
+eye2.Shape = Enum.PartType.Ball
+--
+for _, higulight in pairs(workspace.Lobby.LobbyFrame:GetChildren()) do
+  if higulight.Name == 'MeshPart' and higulight.MeshId == 'rbxassetid://14917871202' then
+  higulight.Color = Color3.fromRGB(170, 85, 0)
+end
+end
+--
+for _, stands in pairs(workspace.Lobby.GloveStands:GetChildren()) do
+  stands.Color = Color3.fromRGB(255, 140, 0)
+end
+--
+for _, tv1 in pairs(workspace.Lobby.TV:GetChildren()) do
+  if tv1.Name == 'MeshPart' and tv1.MeshId == 'rbxassetid://7054877589' then
+    tv1.Color = Color3.fromRGB(170, 85, 0)
+  end
+end
+--
+for _, lights10 in pairs(workspace.Lobby.SmallLights:GetChildren()) do
+  lights10.Color = Color3.fromRGB(170, 85, 0)
+end
+--
+for _, rail in pairs(workspace.Lobby.Conveyors:GetChildren()) do
+  if rail.Name == 'MeshPart' then
+    rail.Color = Color3.fromRGB(170, 85, 0)
+  end
+end
+--
+for _, rail2 in pairs(workspace.Lobby.Conveyors:GetChildren()) do
+  if rail2.Name == 'Part' then
+    rail2.Color = Color3.fromRGB(226, 155, 64)
+  end
+end
+--
+for _, pa in pairs(workspace.Lobby:GetChildren()) do
+  if pa.Name == 'Part' and pa.Size == Vector3.new(24.59537696838379, 1, 1) then
+    pa.Color = Color3.fromRGB(170, 85, 0)
+  end
+end
+-- 
+for _, gate in pairs(workspace.Lobby:GetChildren()) do
+  if gate.Name == 'MeshPart' and gate.MeshId == 'rbxassetid://7054911833' then
+    gate.Color = Color3.fromRGB(170, 85, 0)
+  end
+end
+--
+workspace.Lobby.Teleport4Frame.Color = Color3.fromRGB(170, 85, 0)
+workspace.Lobby.Teleport6Frame.Color = Color3.fromRGB(170, 85, 0)
+--
+for _, lad in pairs(workspace.Arena.island5:GetDescendants()) do
+  if lad.Name == 'Truss' then
+    lad.Color = Color3.fromRGB(255, 140, 0)
+    lad.Material = 'Plastic'
+  end
+end
+--
+local function changesky()
+  while true do
+game.Lighting.ClockTime = 0
+game.Lighting:WaitForChild('Sky').CelestialBodiesShown = true
+game.Lighting:WaitForChild('Sky').StarCount = 0
+game.Lighting:WaitForChild('Sky').MoonTextureId = 'rbxassetid://18512306806'
+    task.wait()
+  end
+end
+coroutine.wrap(changesky)()
+--
+workspace.Arena.CubeOfDeathArea["the cube of death(i heard it kills)"].Color = Color3.fromRGB(170, 85, 0)
+workspace.Arena.CubeOfDeathArea["the cube of death(i heard it kills)"].Material = 'Neon'
+--
+workspace.Arena.Plate.Color = Color3.fromRGB(255, 140, 0)
+--
+local part = Instance.new('MeshPart')
+part.Name = 'lant'              
+part.Anchored = true
+part.Size = Vector3.new(1, 1, 1)
+part.CFrame = CFrame.new(218, 13, 10)
+part.MeshId = 'rbxassetid://5268821073'
+part.Color = Color3.fromRGB(0, 0, 0)
+part.Parent = workspace
+local part2 = Instance.new('Part')
+part2.Material = 'Neon'
+part2.BrickColor = BrickColor.new('Gold')
+part2.Size = Vector3.new(0.8, 0.8, 0.8)
+part2.CFrame = CFrame.new(218, 13, 10)
+part2.Parent = workspace.lant            
+part2.Anchored = true
+--
+local light8000 = Instance.new('PointLight')
+light8000.Parent = part2
+light8000.Color = Color3.new(1, 1, 1)
+light8000.Range = 40
+--
+local partt = Instance.new('MeshPart')
+partt.Name = 'lant'              
+partt.Anchored = true
+partt.Size = Vector3.new(1, 1, 1)
+partt.CFrame = CFrame.new(-386, 52.3, 6)
+partt.MeshId = 'rbxassetid://5268821073'
+partt.Color = Color3.fromRGB(0, 0, 0)
+partt.Parent = workspace
+local partt2 = Instance.new('Part')
+partt2.Material = 'Neon'
+partt2.BrickColor = BrickColor.new('Gold')
+partt2.Size = Vector3.new(0.8, 0.8, 0.8)
+partt2.CFrame = CFrame.new(-386, 52.4, 6)
+partt2.Parent = workspace.lant            
+partt2.Anchored = true
+--
+local lightt8000 = Instance.new('PointLight')
+lightt8000.Parent = partt2
+lightt8000.Color = Color3.new(1, 1, 1)
+lightt8000.Range = 40
+--
+local lick = Instance.new('PointLight')
+lick.Parent = game:GetService("Workspace").Arena.island5["Low Poly Tree"].Leaves1
+lick.Color = Color3.new(255, 140, 0)
+lick.Range = 40
+--
+for _, slapple in pairs(workspace.Arena.island5.Slapples:GetChildren()) do
+  if slapple.Name == 'Slapple' then
+if slapple:FindFirstChild('Glove') then
+  if slapple.Glove:FindFirstChildOfClass('PointLight') then
+    slapple.Glove.PointLight.Range = 20
+    slapple.Glove.PointLight.Color = Color3.new(255, 140, 0)
+    slapple.Glove.PointLight.Brightness = 2
+  end
+end
+  end
+end
+--
+local part9 = Instance.new('MeshPart')
+part9.Name = 'lant'              
+part9.Anchored = true
+part9.Size = Vector3.new(1, 1, 1)
+part9.CFrame = CFrame.new(-210, -7.7, 2)
+part9.MeshId = 'rbxassetid://5268821073'
+part9.Color = Color3.fromRGB(0, 0, 0)
+part9.Parent = workspace
+local part200 = Instance.new('Part')
+part200.Material = 'Neon'
+part200.BrickColor = BrickColor.new('Gold')
+part200.Size = Vector3.new(0.8, 0.8, 0.8)
+part200.CFrame = CFrame.new(-210, -7.7, 2)
+part200.Parent = part9          
+part200.Anchored = true
+--
+local light800 = Instance.new('PointLight')
+light800.Parent = part200
+light800.Color = Color3.new(1, 1, 1)
+light800.Range = 40
+-----
+local partw = Instance.new('MeshPart')
+partw.Name = 'lant'              
+partw.Anchored = true
+partw.Size = Vector3.new(1, 1, 1)
+partw.CFrame = CFrame.new(-43, -7.5, 246)
+partw.MeshId = 'rbxassetid://5268821073'
+partw.Color = Color3.fromRGB(0, 0, 0)
+partw.Parent = workspace
+local part2w = Instance.new('Part')
+part2w.Material = 'Neon'
+part2w.BrickColor = BrickColor.new('Gold')
+part2w.Size = Vector3.new(0.8, 0.8, 0.8)
+part2w.CFrame = CFrame.new(-43, -7.5, 246)
+part2w.Parent = partw        
+part2w.Anchored = true
+--
+local lightw = Instance.new('PointLight')
+lightw.Parent = part2w
+lightw.Color = Color3.new(1, 1, 1)
+lightw.Range = 40
+--
+local partww = Instance.new('MeshPart')
+partww.Name = 'lant'              
+partww.Anchored = true
+partww.Size = Vector3.new(1, 1, 1)
+partww.CFrame = CFrame.new(-1, -7.5, 210)
+partww.MeshId = 'rbxassetid://5268821073'
+partww.Color = Color3.fromRGB(0, 0, 0)
+partww.Parent = workspace
+local part2ww = Instance.new('Part')
+part2ww.Material = 'Neon'
+part2ww.BrickColor = BrickColor.new('Gold')
+part2ww.Size = Vector3.new(0.8, 0.8, 0.8)
+part2ww.CFrame = CFrame.new(-1, -7.5, 210)
+part2ww.Parent = partww          
+part2ww.Anchored = true
+--
+local light8000ww = Instance.new('PointLight')
+light8000ww.Parent = part2ww
+light8000ww.Color = Color3.new(1, 1, 1)
+light8000ww.Range = 40
+--
+local partl = Instance.new('MeshPart')
+partl.Name = 'lant'              
+partl.Anchored = true
+partl.Size = Vector3.new(1, 1, 1)
+partl.CFrame = CFrame.new(1, -7.5, -206.5)
+partl.MeshId = 'rbxassetid://5268821073'
+partl.Color = Color3.fromRGB(0, 0, 0)
+partl.Parent = workspace
+local part2l = Instance.new('Part')
+part2l.Material = 'Neon'
+part2l.BrickColor = BrickColor.new('Gold')
+part2l.Size = Vector3.new(0.8, 0.8, 0.8)
+part2l.CFrame = CFrame.new(1, -7.5, -206.5)
+part2l.Parent = partl          
+part2l.Anchored = true
+--
+local light8000l = Instance.new('PointLight')
+light8000l.Parent = part2l
+light8000l.Color = Color3.new(1, 1, 1)
+light8000l.Range = 40
+--
+local lige = Instance.new('PointLight')
+lige.Parent = game:GetService("Workspace").Arena["main island"].Grass
+lige.Color = Color3.new(255, 140, 0)
+lige.Range = 1000
+lige.Brightness = 1
+--
+for _, lop in pairs(workspace.Lobby:GetChildren()) do
+  if lop.Name == 'MeshPart' and lop.MeshId == 'rbxassetid://7054898367' and lop.BrickColor == BrickColor.new('Institutional white') then
+    lop.Color = Color3.fromRGB(255, 140, 0)
+  end
+end
+--
+for _, def in pairs(workspace.Arena['default island']:GetChildren()) do
+  if def.Name == 'Part' and def.BrickColor == BrickColor.new('Sea green') then
+    def.Color = Color3.fromRGB(180, 133, 65)
+  end
+end
+--
+for _, def2 in pairs(workspace.Arena['default island'].Tree:GetChildren()) do
+  if def2.Name == 'Leaves' then
+    def2:Destroy()
+  end
+end
+--
+local parte = Instance.new('MeshPart')
+parte.Name = 'lant'              
+parte.Anchored = true
+parte.Size = Vector3.new(1, 1, 1)
+parte.CFrame = CFrame.new(98, 357.5, 36)
+parte.MeshId = 'rbxassetid://5268821073'
+parte.Color = Color3.fromRGB(0, 0, 0)
+parte.Parent = workspace
+local part2le = Instance.new('Part')
+part2le.Material = 'Neon'
+part2le.BrickColor = BrickColor.new('Gold')
+part2le.Size = Vector3.new(0.8, 0.8, 0.8)
+part2le.CFrame = CFrame.new(98, 357.5, 36)
+part2le.Parent = parte   
+part2le.Anchored = true
+--
+local light8000le = Instance.new('PointLight')
+light8000le.Parent = part2le
+light8000le.Color = Color3.new(1, 1, 1)
+light8000le.Range = 40
